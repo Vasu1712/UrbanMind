@@ -30,7 +30,7 @@ const DashboardSidebar = () => {
               onMouseLeave={() => setHoveredIcon(null)}
             >
               <Icon icon={item.icon} width="24" style={{ color: '#ffffff' }} />
-              {/* Label only shows when icon is hovered */}
+              
               <span
                 className={`ml-4 text-sm transition-all duration-300 whitespace-nowrap overflow-hidden ${
                   hoveredIcon === item.id ? 'opacity-100 w-auto' : 'opacity-0 w-0'
